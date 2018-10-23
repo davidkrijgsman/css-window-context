@@ -458,7 +458,6 @@ const setContext = (el) => {
 };
 
 function directive(el) {
-	
 	const handleScroll = lodash_throttle(() => {
 		window.requestAnimationFrame(() => setContext(el));
 	}, 20);
@@ -467,9 +466,11 @@ function directive(el) {
 }
 
 function install(Vue) {
-	Vue.directive('css-window-context', {
-		bind: directive,
-	});
+	if (window.CSS && window.CSS.supports && window.CSS.supports('--dummy-var', 0)) {
+		Vue.directive('css-window-context', {
+			bind: directive,
+		});
+	}
 }
 
 exports.directive = directive;
