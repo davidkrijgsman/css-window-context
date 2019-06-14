@@ -1,6 +1,6 @@
 {
   "name": "vue-css-window-context",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "",
   "main": "dist/vue-css-window-context.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "rollup": "^0.66.1",
-    "rollup-plugin-commonjs": "^9.1.8",
+    "rollup-plugin-commonjs": "^9.3.4",
     "rollup-plugin-node-resolve": "^3.4.0"
   }
 }
