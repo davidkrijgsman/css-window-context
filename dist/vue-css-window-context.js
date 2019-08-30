@@ -491,4 +491,4 @@ function install(Vue) {
 
 exports.directive = directive;
 exports.install = install;
-exports.default = install;
+exports["default"] = install;
