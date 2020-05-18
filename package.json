@@ -1,6 +1,6 @@
 {
   "name": "vue-css-window-context",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "",
   "main": "dist/vue-css-window-context.js",
   "scripts": {
@@ -14,9 +14,9 @@
     "lodash.throttle": "^4.1.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/preset-env": "^7.5.5",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
     "rollup": "^0.66.1",
     "rollup-plugin-commonjs": "^9.3.4",
     "rollup-plugin-node-resolve": "^3.4.0"
